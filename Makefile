@@ -5,7 +5,7 @@ CC = gcc
 CCFLAGS = -Wall -Wextra -Werror
 
 NAME = so_long
-SRC = 
+SRC = putsprites.c exit.c free.c mapcheck.c
 
 MAIN = main.c
 OBJ = $(SRC:.c=.o)
